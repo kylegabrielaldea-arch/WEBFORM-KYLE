@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ICT Membership Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f0f3f5;
+            padding: 25px;
+        }
+
+        .form-box {
+            width: 85%;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        input[type=text], select, textarea {
+            width: 98%;
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid #555;
+            border-radius: 4px;
+        }
+
+        .small {
+            width: 120px;
+        }
+
+        .buttons {
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 8px 20px;
+            margin-right: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .submit { background: #4caf50; color: white; }
+        .reset { background: #f0ad4e; color: black; }
+        .print { background: #0275d8; color: white; }
+
+        hr { margin: 15px 0; }
+    </style>
+</head>
+<body>
+
+<div class="form-box">
+
+    <h2>ICT Club Membership Form</h2>
+
+    <label>Name:</label><br>
+    <input type="text">
+
+    <label>Surname:</label><br>
+    <input type="text">
+
+    <label>First Name:</label><br>
+    <input type="text">
+
+    <label>Middle Name:</label><br>
+    <input type="text">
+
+    <label>Grade Level:</label><br>
+    <input type="text" class="small">
+
+    <label>Section:</label><br>
+    <input type="text" class="small">
+
+    <label>Address:</label><br>
+    <input type="text">
+
+    <label>Birthday:</label><br>
+    <select class="small">
+        <option>January</option><option>February</option><option>March</option>
+        <option>April</option><option>May</option><option>June</option>
+        <option>July</option><option>August</option><option>September</option>
+        <option>October</option><option>November</option><option>December</option>
+    </select>
+
+    <input type="text" placeholder="Date" class="small">
+    <input type="text" placeholder="Year" class="small">
+
+    <label>Age:</label><br>
+    <input type="text" class="small">
+
+    <label>Contact No.:</label><br>
+    <input type="text">
+
+    <label>Email Address:</label><br>
+    <input type="text">
+
+    <hr>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <br><br>
+
+    <label>Are you a class officer?</label><br>
+    <input type="radio" name="officer"> Yes
+    <input type="radio" name="officer"> No
+    <br>
+    <input type="text" placeholder="If yes, what position?">
+
+    <hr>
+
+    <label>Other Club Involvement:</label><br>
+    <input type="text" placeholder="1.">
+    <input type="text" placeholder="2.">
+
+    <hr>
+
+    <label>Computer Skills (check all that apply):</label><br>
+    <input type="checkbox"> Office Productivity<br>
+    <input type="checkbox"> Photo Editing<br>
+    <input type="checkbox"> Web Designing<br>
+    <input type="checkbox"> Computer Hardware Servicing<br>
+    <input type="checkbox"> Graphics & Animation<br>
+    <input type="checkbox"> Others (specify)<br>
+    <input type="text">
+
+    <hr>
+
+    <label>What talents do you have?</label>
+    <textarea rows="3"></textarea>
+
+    <label>Why do you want to join this club?</label>
+    <textarea rows="3"></textarea>
+
+    <label>What do you know about this club?</label>
+    <textarea rows="3"></textarea>
+
+    <label>What do you expect from this club?</label>
+    <textarea rows="3"></textarea>
+
+    <label>What can you contribute to this club?</label>
+    <textarea rows="3"></textarea>
+
+    <div class="buttons">
+        <button class="submit">Submit</button>
+        <button class="reset" type="reset">Reset</button>
+        <button class="print" onclick="window.print()">Print</button>
+    </div>
+
+</div>
+
+</body>
+</html>

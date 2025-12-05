@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ICT Club Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: url("https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/547359758_32681368254795997_5583199009876571986_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeE3oFnaMZyxWS-NZz8tjwbA3moGDJyuOzjeagYMnK47OMPDfqf1tfDp5QmSZdf9_zcWAJwHn3wDHsM_H85swGaA&_nc_ohc=NOtVAqS-v6QQ7kNvwH_7P0c&_nc_oc=AdmtF71uNTgiXeI2djhuDi9EwIPfUVlUM7tazPVedKlQ8Hmygh9Kz4FPpAf_CdcScOw&_nc_zt=23&_nc_ht=scontent.fmnl17-3.fna&_nc_gid=LJrAqEve6aTyBBMkehmfVQ&oh=00_AflJ71qpU0H6YdakqsKf1XDAc4RQM5GnczmLILQN7I1tjg&oe=6938C675") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .login-box {
+            width: 380px;
+            margin: 70px auto;
+            padding: 25px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.88);
+            border-radius: 10px;
+        }
+
+        input[type=text], input[type=password] {
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #888;
+            border-radius: 5px;
+        }
+
+        .btn {
+            width: 94%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            background: #4caf50;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn:hover { background: #45a049; }
+
+        a { font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.1EFL2YE3gEc6vQTogon9VwHaHB?pid=Api&P=0&h=180"
+             width="90" alt="School Logo">
+        <h2>Sta. Elena High School</h2>
+
+        <input type="text" placeholder="Enter Username">
+        <br>
+
+        <a>Not yet a member?</a><br>
+        <a href="register.html">Register</a>
+        <br><br>
+
+        <input type="password" placeholder="Enter Password">
+        <br>
+        <button class="btn">Login</button>
+    </div>
+
+</body>
+</html>
